@@ -1,6 +1,6 @@
 {
   "name": "flat-load",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An overly eager module loader for flattening modules for autoloading",
   "main": "index.js",
   "scripts": {
