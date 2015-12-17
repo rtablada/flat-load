@@ -1,5 +1,7 @@
 # Flat Load
 
+[![Build Status](https://travis-ci.org/rtablada/flat-load.svg?branch=master)](https://travis-ci.org/rtablada/flat-load)
+
 Flat Load is an overly eager module loader for flattening modules for autoloading.
 
 What this means is that Flat Load will require all of the modules within a directory and then flatten them into a single dimensional array.
