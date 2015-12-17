@@ -14,4 +14,10 @@ describe('Flat Loader', function() {
 
     expect(results).to.deep.equal(['i', 'am', 'nested', 'too']);
   });
+
+  it('should not load non-js files', function() {
+    var results = loader(__dirname + '/mocks/no-js');
+
+    expect(results).to.deep.equal([]);
+  });
 });

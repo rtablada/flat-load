@@ -3,5 +3,7 @@
     "chai",
     "describe",
     "it"
-  ]
+  ],
+  "node": true,
+  "esnext": true
 }

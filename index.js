@@ -10,8 +10,12 @@ module.exports = function loader(dir) {
     if (isDirectory(filepath)) {
       return loader(filepath);
     } else {
-      return require(filepath);
+      if (filepath.indexOf('.js') === filepath.length - 3) {
+        return require(filepath);
+      }
     }
+  }).filter(function(result) {
+    return result !== undefined;
   }));
 };
 
