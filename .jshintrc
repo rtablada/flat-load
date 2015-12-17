@@ -1,0 +1,7 @@
+{
+  "predef": [
+    "chai",
+    "describe",
+    "it"
+  ]
+}
